@@ -1,14 +1,12 @@
 :root {
   font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
   color: rgba(255, 255, 255, 0.87);
-  background: linear-gradient(to bottom, #fdf6e3, #e7dac3);
   margin: 0;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  height: 100vh;
 }
 
 a {
@@ -23,6 +21,8 @@ a:hover {
 body {
   width: 100vw;
   margin: 0;
+    background: linear-gradient(to bottom, #fdf6e3, #e7dac3);
+    background-attachment: fixed;
 }
 
 h1 {
